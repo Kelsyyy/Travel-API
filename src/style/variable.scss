@@ -1,0 +1,55 @@
+//sass variable
+$maxWidth: 1440px;
+
+// color
+$contentClr: #444;
+$whiteClr: #eee;
+$blueClr: rgb(89, 152, 203);
+$redClr: #bb0404;
+
+// textStyles
+$text40: 40px;
+$text32: 32px;
+$text24: 24px;
+$text18: 18px;
+$text16: 16px;
+$text14: 14px;
+$text12: 12px;
+$text10: 10px;
+
+$headerHeight: 60px;
+
+body {
+    height: auto !important;
+  }
+  //Html Element Style
+  html {
+    scroll-behavior: smooth;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    // font-family: 'Open Sans', sans-serif;
+    font-family: 'Noto Sans TC', sans-serif;
+    scroll-behavior: smooth;
+  }
+  
+  a,
+  a:visited,
+  a:hover,
+  a:active {
+    // color: $contentClr;
+    text-decoration: none;
+  }
+  
+  //清除ul樣式
+  ul {
+    list-style-type: none;
+  }
+
+.flexCenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
